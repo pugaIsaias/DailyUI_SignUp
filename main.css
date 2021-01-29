@@ -76,3 +76,8 @@ input:focus {
 .btn:focus {
   background-color: #271a49;
 }
+
+em {
+  font-weight: bolder;
+  font-style: normal;
+}
