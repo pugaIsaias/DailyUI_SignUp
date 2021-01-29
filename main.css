@@ -7,11 +7,18 @@ body {
   font-size: 1.125rem;
 }
 
+.logo {
+  height: 2.75rem;
+  align-self: center;
+}
+
 nav {
   background-color: #477553;
-  margin-bottom: 0;
+  padding: 0 3rem;
   height: 10vh;
-  padding: 0 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 main {
@@ -28,11 +35,20 @@ main {
 
 footer {
   background-color: #1b492a;
-  padding: 0 3em;
-  height: 10vh;
+  padding: 0 3rem;
+  height: 7vh;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.license {
+  margin-top: 0;
+  padding: 0 3rem;
+  height: 3vh;
+  font-size: 0.7rem;
+  background-color: #1b492a;
+  text-align: end;
 }
 
 .CTA {
